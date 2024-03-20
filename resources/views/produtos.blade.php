@@ -11,25 +11,20 @@
             border:1px solid #000;
         }
     </style>
-
+    
     <table>
-        <th colspan="3">Produtos</th>
         <tr>
-            <th colspan="3">Produtos</th>
-            <td>&nbsp</td>
-            <td>&nbsp</td>
-            <td>&nbsp</td>
+            <th>Descrição</th>
+            <th>Categoria</th>
+            <th>preço</th>
         </tr>
+        <php foreach ($product as $produto): ?>
         <tr>
-            <td>&nbsp</td>
-            <td>&nbsp</td>
-            <td>&nbsp</td>
+            <td></td>
+            <td></td>
+            <td></td>
         </tr>
-        <tr>
-            <td>&nbsp</td>
-            <td>&nbsp</td>
-            <td>&nbsp</td>
-        </tr>
+        
     </table>
 </body>
 </html>
